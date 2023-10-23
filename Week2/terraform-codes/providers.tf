@@ -14,10 +14,10 @@ terraform {
     region = "ap-southeast-2"
 
     // Lock 관리를 위한 DynamoDB 테이블명
-    dynamodb_table = "comento-ddb-table-ykim"
+    dynamodb_table = "comento-ddb-table-yjkim"
 
     // Terraform 프로비저닝 자원 상태 파일 저장소명
-    bucket = "comento-s3-bucket-ykim"
+    bucket = "comento-s3-bucket-yjkim"
 
     // Terraform 프로비저닝 자원 상태 파일명
     key = "terraform.tfstate"
