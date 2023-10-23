@@ -1,7 +1,7 @@
 // 리전 변수 - 서울 리전
 variable "aws_region" {
   default = "ap-southeast-2"
-  type = string 
+  type = string
 }
 
 // VPC CIDR - IP 대역, 최대 65,535개 IP 생성
@@ -24,6 +24,6 @@ variable "aws_azs"  {
 
 // EKS 클러스터명
 variable "cluster-name" {
-  default = "test-eks-cluster-yjkim"
+  default = "test-eks-cluster"
   type    = string
 }

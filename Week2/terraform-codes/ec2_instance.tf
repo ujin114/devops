@@ -2,11 +2,11 @@ resource "aws_instance" "test-ec2-bastion" {
 
   // 이름 및 태그
   tags = {
-      Name = "test-ec2-bastion-yjkim"
+      Name = "test-ec2-bastion"
   }
 
   // Amazon Machine Image(AMI)
-  ami = "ami-09af799f87c7601fa"
+  ami = "ami-00db1c6dbbcaf97a8"
 
   // 인스턴스 유형
   instance_type = "t2.micro"

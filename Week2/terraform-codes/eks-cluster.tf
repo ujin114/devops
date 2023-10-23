@@ -28,6 +28,6 @@ resource "aws_eks_cluster" "test-eks-cluster" {
     }
 
     tags = {
-        "Name" = "TEST-EKS-CLUSTER"
+        "Name" = "TEST-EKS-CLUSTER-yjkim"
     }
 }

@@ -46,6 +46,6 @@ resource "aws_eks_node_group" "test-eks-nodegroup" {
   subnet_ids = aws_subnet.test-public-subnet[*].id
 
   tags = {
-    "Name" = "TEST-EKS-WORKER-NODES"
+    "Name" = "TEST-EKS-WORKER-NODES-yjkim"
   }
 }
