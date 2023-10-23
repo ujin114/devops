@@ -1,6 +1,6 @@
 // 리전 변수 - 서울 리전
 variable "aws_region" {
-  default = "ap-northeast-2"
+  default = "ap-southeast-2"
   type = string 
 }
 
@@ -18,12 +18,12 @@ variable "aws_vpc_public_subnets" {
 
 // 가용 영역 - A존, C존
 variable "aws_azs"  {
-    default = ["ap-northeast-2a", "ap-northeast-2c"]
+    default = ["ap-southeast-2a", "ap-southeast-2c"]
     type = list(string)
 }
 
-#// EKS 클러스터명
-#variable "cluster-name" {
-#  default = "test-eks-cluster"
-#  type    = string
-#}
+// EKS 클러스터명
+variable "cluster-name" {
+  default = "test-eks-cluster-yjkim"
+  type    = string
+}
